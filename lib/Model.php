@@ -21,7 +21,7 @@ class BaseModel {
 
 	public function query($sql){
 		$data = $this->dbConnect();
-		$query = $data->prepare("SELECT * FROM customer");
+		$query = $data->prepare($sql);
 		$query->execute();
 		//$hasil = $query->fetchAll();
 		$data = null;

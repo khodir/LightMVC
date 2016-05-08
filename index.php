@@ -13,7 +13,7 @@ require 'lib/Model.php';
 $app = new MVC();
 
 //setting debug mode , default = true
-//$app->debug = false;
+$app->debug = false;
 
 //Konfigurasi Untuk mengganti Folder Default :)
 /*
@@ -26,10 +26,10 @@ $app->Vfolder = 'views';
 /*
 menyiapkan baseUrl dari program , berguna untuk pemanggilan CSS ataupun JS pada View, berguna juga saat debug = false
 */
-$app->BaseUrl = "http://localhost/MVC/";
+$app->BaseUrl = "http://localhost/LightMVC/";
 
 //konfigurasi koneksi database array(host,dbname,username,password)
-$app->Connection = array('localhost','latihan','root','');
+$app->Connection = array('localhost','taparupa-retail','root','');
 
 //menjalankan aplikasi
 $app->run();
