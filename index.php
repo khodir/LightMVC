@@ -13,7 +13,7 @@ require 'lib/Model.php';
 $app = new MVC();
 
 //setting debug mode , default = true
-$app->debug = false;
+//$app->debug = false;
 
 //Konfigurasi Untuk mengganti Folder Default :)
 /*
