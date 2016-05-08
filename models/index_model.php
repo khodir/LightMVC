@@ -13,7 +13,7 @@ class Index_model extends BaseModel {
 	}
 
 	public function Select(){
-		$data = $this->query("SELECT * FROM customer");
+		$data = $this->query("SELECT * FROM pengguna");
 		$hasil = $data->fetchALl();
 		return $hasil;
 	}
