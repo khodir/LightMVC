@@ -6,7 +6,7 @@
 
 class Index_model extends BaseModel {
 
-	
+
 	function __construct()
 	{
 		parent::__construct();
@@ -20,5 +20,3 @@ class Index_model extends BaseModel {
 
 
 }
-
-?>

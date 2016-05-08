@@ -32,7 +32,7 @@ class Index extends BaseController{
 			echo print_r($value).'<br>';
 		}
 	}
-	
+
 	//php info :D
 	function phpinfo(){
 		$tampil = $this->view->render('header/header');
@@ -41,12 +41,9 @@ class Index extends BaseController{
 
 	//menampilkan data dari url :)
 	function tampil($url){
-		for ($i=0; $i < $url; $i++) { 
+		for ($i=0; $i < $url; $i++) {
 			echo $i.'<br>';
 		}
 	}
-	
+
 }
-
-
-?>

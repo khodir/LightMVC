@@ -60,8 +60,8 @@ class MVC {
 			header('Location:'.$this->BaseUrl);
 			return false;
 		}
-		
-		
+
+
 		BaseModel::$Connection = $this->Connection;
 		BaseController::$Vfolder = $this->Vfolder;
 		BaseController::$BaseUrlC = $this->BaseUrl;
@@ -78,7 +78,7 @@ class MVC {
 				elseif($this->debug == true){
 					echo "Fungsi ".$url[1]." tidak ada pada controller ".$C;
 //					throw new Exception("Fungsi ".$url[1]." tidak ada pada controller".$C, 1);
-					return false;					
+					return false;
 				}
 				else{
 					header('Location:'.$this->BaseUrl.$C);
@@ -89,5 +89,3 @@ class MVC {
 
 	}
 }
-
-?>

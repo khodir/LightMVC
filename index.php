@@ -33,5 +33,3 @@ $app->Connection = array('localhost','latihan','root','');
 
 //menjalankan aplikasi
 $app->run();
-
-?>
